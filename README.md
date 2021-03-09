@@ -4,7 +4,7 @@
 
 I. Basta acessar o seguinte endereço:
    ```
-   djangocloud-307013.rj.r.appspot.com/
+   https://djangocloud-307013.rj.r.appspot.com/
    ```
 II. Projeto conforme tutorial (YouTube):
    ```
