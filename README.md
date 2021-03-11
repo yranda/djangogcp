@@ -102,10 +102,10 @@ if os.getenv('GAE_APPLICATION', None): /*Verifica se o ambiente esta definido*/
     DATABASES = {
     	'default': {
         	'ENGINE': 'django.db.backends.mysql',
-		      'HOST': '/cloud/djangocloud-307013:southamerica-east1:dbdjango', /*O 'sufixo' pode ser pego através do comando: gcloud sql instances describe dbdjango*/
-		      'USER': 'root',
-		      'PASSWORD': '*****',
-		      'NAME': 'dbdjango',
+		'HOST': '/cloud/djangocloud-307013:southamerica-east1:dbdjango', /*O 'sufixo' pode ser pego através do comando: gcloud sql instances describe dbdjango*/
+		'USER': 'root',
+		'PASSWORD': '*****',
+		'NAME': 'dbdjango',
 	    }
 	}
 	else:
